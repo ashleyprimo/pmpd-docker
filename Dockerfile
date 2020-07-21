@@ -42,7 +42,7 @@ RUN chmod 775 /usr/local/bin/startup
 
 # Setup Plex Movie Poster Display (clone repo)
 RUN cd /opt && \\
-git clone https://github.com/MattsShack/Plex-Movie-Poster-Display.git && \\
+git clone https://github.com/ashleyprimo/Plex-Movie-Poster-Display.git && \\
 cp -R Plex-Movie-Poster-Display/* /var/www/html && \\ 
 chmod -R 774 /var/www/html && \\
 chown -R www-data:www-data /var/www/html && \\
