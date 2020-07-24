@@ -14,7 +14,7 @@ ARG TZ=Europe/London
 RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
 
 # Update APT
-RUN apt update
+RUN apt update --fix-missing
 
 ## Install prerequisite
 RUN apt install -y \\
