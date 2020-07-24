@@ -21,6 +21,7 @@ RUN apt install -y \\
 nginx \\
 php-fpm \\
 php-xml \\
+php-curl \\
 git \\
 unclutter \\ 
 netcat
